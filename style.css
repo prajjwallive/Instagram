@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    margin-top: 13%;
+    margin-left: 33%;
+    padding: 0;
+    margin-right: 0;
+}
+
+.mobileframe {
+    border-radius: 10px;
+}
+
+.mobile {
+    height: auto;
+    width: 500px;
+}
+
+.mobilepic {
+    position: absolute;
+    top: 32.5%;
+    left: 33.75%;
+    border: 4px solid rgb(242, 242, 247);
+}
+
+.right {
+    margin-top: 13%;
+    margin-left: 0;
+}
+
+.fblogo {
+    height: 10px;
+    width: 20px;
+    position: absolute;
+    right: 35%;
+    margin-top: 2px;
+}
+
+.login {
+    border: 2px solid grey;
+    height: 43vh;
+    border-radius: 3px;
+    width: 120%;
+    text-align: center;
+    margin-top: 25px;
+    box-shadow: 10, 20, 30, 40;
+}
+
+.instagramname {
+    font-size: 32px;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: cursive;
+    margin: 13%;
+}
+
+.email,
+.password {
+    padding: 3px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.button {
+    padding: 3px;
+    width: 258px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    border-color: skyblue;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.hrleft {
+    float: inline-start;
+    width: 160px;
+    position: absolute;
+    top: 537px;
+    margin-top: 20px;
+}
+
+.hrright {
+    float: inline-start;
+    width: 160px;
+    position: absolute;
+    right: 400px;
+    top: 537px;
+    margin-top: 20px;
+}
+
+.loginwithfacebook {
+    color: blue;
+    font-weight: bold;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.facebook {
+    margin: 40px;
+}
+
+.forgotpassword {
+    margin-top: -40px;
+    font-weight: bold;
+}
+
+.donthaveaccount {
+    border: 2px solid grey;
+    height: 8vh;
+    border-radius: 3px;
+    width: 120%;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.text {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-left: 25px;
+}
+
+.buttonpart {
+    display: flex;
+    float: inline;
+    margin-left: 10px;
+}
+
+.createaccount {
+    color: rgb(5, 161, 223);
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.gettheapp {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.google {
+    position: absolute;
+    top: 88%;
+    right: 20%;
+    cursor: pointer;
+}
+
+.apple {
+    position: absolute;
+    top: 88%;
+    right: 31%;
+    cursor: pointer;
+}
